@@ -1,0 +1,196 @@
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* start of header */
+.bar{
+    background-color: red;
+    box-shadow: 0 0 5px 1px #888888;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    text-align: center;
+}
+.nav{
+    background-color: transparent;
+    height: 100%;
+    width: 3%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    cursor: pointer;
+    padding-left: 7.5px;
+    color: white;
+}
+.nav:hover{
+    background-color: white;
+    color:black;
+}
+.nav:focus{
+    background-color: white;
+    color:black;
+}
+/* start of hero */
+.section1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+    background-color: red;
+}
+.start{
+    margin: 20px;
+    font-size: 60px;
+    font-weight: 300;
+}
+.temp{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.temp a{
+    color:white;
+    text-decoration: none;
+}
+.button{
+color: white;
+background-color: black;
+padding: 15px;
+margin-top: 12px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.button:hover{
+    background-color: #3d3b3b;
+}
+/* end of header
+start of main */
+.section2{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+}
+.section2 div{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    width: 50%;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.section2 img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 10%;
+    height: 100%;
+}
+.h4{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.text{
+    width: 50%;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+#anchor{
+    margin-top: 35px;
+    font-size: 200px;
+    margin-bottom: 60px;
+}
+.section3{
+    background-color: #d4d4d4;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section3 img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 10%;
+    height: 100%;
+}
+.section3 div{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lorem2{
+    width: 500px;
+    height: 70px;
+    margin-bottom: 200px;
+    padding: 20px;
+}
+#mug{
+    font-size: 200px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.section4{
+    background-color: #464242fb;
+    color: #eee;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+/* end of main
+start  of footer */
+.end{
+    background-color: white;
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color: #464242fb;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color:  #464242fb ;
+}
+.account a{
+    color:  #464242fb ;
+}
+.power a{
+    color: #464242fb ;
+    text-decoration: none;
+    }
+    /* end of footer */
